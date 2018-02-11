@@ -1,0 +1,82 @@
+.navigationBar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 48px;
+
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    background-color: #ffffffc6;
+
+    border-bottom: 0.5px solid #d6d6d6d6;
+
+    overflow-x: scroll;
+    overflow-y: hidden;
+
+    z-index: 999;
+}
+.navigationBar .container {
+    width: auto;
+    height: 48px;
+
+    white-space: nowrap;
+
+    display: inline-block;
+}
+.navigationBar ul {
+    padding-top: 14px;
+
+    display: inline-block;
+}
+.navigationBar li {
+    display: inline-block;
+}
+.navigationBar li a {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.navigationBar li a:last-child {
+    padding-right: 0;
+}
+.navigationBar h2 {
+    margin-top: 9px;
+
+    display: inline-block;
+}
+.navigationBar a {
+    font-size: 17px;
+}
+.navigationBar h2, .navigationBar h2 a {
+    color: #222222;
+    font-size: 24px;
+    font-weight: bold;
+}
+.navigationBar h2 img {
+    width: 32px;
+    height: 32px;
+    margin-bottom: -8px;
+}
+
+.footer {
+    bottom: 0;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 100%;
+}
+.footer li a {
+    padding: 8px;    
+}
+.footer li a:first-child {
+    padding-left: 0;
+}
+
+@media (min-width: 576px) {
+    .navigationBar .container {
+        width: 100%;
+
+        display: block;
+    }
+    .navigationBar ul {
+        float: right;
+    }
+}
