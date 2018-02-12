@@ -1,7 +1,3 @@
-{{ define "title" }}
-    {{ .Title }} &ndash; {{ .Site.Title }}
-{{ end }}
-
 {{ define "main" }}
     {{ $paginator := .Paginate (where .Data.Pages "Type" "posts") }} 
     {{ template "_internal/pagination.html" . }}

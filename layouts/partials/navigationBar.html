@@ -1,6 +1,6 @@
 <nav class="navigationBar">
     <div class="container">
-        <h2>{{ .Title }}</h2>
+        <h2>{{ .Site.Title }}</h2>
         <ul>
             {{ block "navigationLinks" . }}{{ end }}
         </ul>
