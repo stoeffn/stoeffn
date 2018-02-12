@@ -2,6 +2,12 @@
     {{ $paginator := .Paginate (where .Data.Pages "Type" "posts") }} 
     {{ template "_internal/pagination.html" . }}
     {{ range $paginator.Pages }}
-        {{ .Title }}
+        <article>
+            <header>
+                <h1>{{ .Title }}</h1>
+                {{ .PublishDate.Format "January 2, 2006" }}
+            </header>
+            {{ .Summary }}
+        </article>
     {{ end }}
 {{ end }}
