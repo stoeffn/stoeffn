@@ -369,6 +369,30 @@ summary {
 }
 
 /*
+ * === FIGURES ===
+ */
+
+ figure {
+    padding: 2px;
+
+    background-color: #3F6E74;
+    border-radius: 4px;
+
+    display: inline-block;
+ }
+ figcaption h4 {
+    margin: 0 4px;
+    margin-bottom: 4px;
+
+    color: white;
+    font-size: 15px;
+    font-weight: normal;
+ }
+ figure img {
+    border-radius: 2px;
+ }
+
+/*
  * === TABLES ===
  */
 

@@ -15,9 +15,6 @@
 .post .publishDate::before, .postPreview .publishDate::before {
     content: "@ ";
 }
-.post img {
-    max-width: 50%;
-}
 
 /**
  * --- PAGINATION ---

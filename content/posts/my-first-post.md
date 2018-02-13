@@ -4,6 +4,12 @@ date: 2018-02-11T21:52:30+01:00
 draft: false
 ---
 
+<style>
+    .post img {
+        max-width: 384px;
+    }
+</style>
+
 Demo Markdown file:  
 
 # h1 Heading
@@ -108,6 +114,15 @@ With a reference later in the document defining the URL location:
 
 [id]: https://octodex.github.com/images/dojocat.jpg  "The Dojocat"
 
+## Figures
+
+{{< figure src="https://octodex.github.com/images/dojocat.jpg" title="The Octocat" alt="Octocat">}}
+
+
+## Gists
+
+{{< gist spf13 7896402 >}}
+
 
 ## Code
 
@@ -137,6 +152,18 @@ var foo = function (bar) {
 console.log(foo(5));
 ```
 
+---
+
+{{< highlight html >}}
+<section id="main">
+  <div>
+   <h1 id="title">{{ .Title }}</h1>
+    {{ range .Data.Pages }}
+        {{ .Render "summary"}}
+    {{ end }}
+  </div>
+</section>
+{{< /highlight >}}
 
 ## Tables
 
