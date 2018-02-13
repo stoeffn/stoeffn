@@ -1,4 +1,4 @@
-{{ define "main" }}
+{{ define "content" }}
     {{ $paginator := .Paginate (where .Data.Pages "Type" "posts") }} 
     {{ template "_internal/pagination.html" . }}
     {{ range $paginator.Pages }}

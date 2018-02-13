@@ -1,0 +1,14 @@
+<header>
+    <nav class="header">
+        <div class="container">
+            <h2>
+                <a href="/">
+                    {{ .Site.Title }}
+                </a>
+            </h2>
+            <ul>
+                {{ block "headerLinks" . }}{{ end }}
+            </ul>
+        </div>
+    </nav>
+</header>

@@ -1,0 +1,22 @@
+.footer {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.footer ul {
+    margin: 0;
+
+    list-style-type: none;
+}
+.footer li {
+    display: inline-block;
+}
+.footer li a {
+    padding: 8px;
+}
+.footer li a:first-child {
+    padding-left: 0;
+}
+.footer .copyright {
+    color: #888888;
+    font-size: 14px;
+}

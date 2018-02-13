@@ -205,7 +205,7 @@ hr {
     margin: 16px;
 
     border: none;
-    border-top: 1px solid #cccccc;
+    border-top: 1px solid #d6d6d6d6;
 }
 
 /*
@@ -218,7 +218,7 @@ code {
 pre {
     padding: 8px;
     
-    border: 1px solid #cccccc;
+    border: 1px solid #d6d6d6d6;
     border-radius: 4px;
 
     overflow-x: scroll;
@@ -308,11 +308,11 @@ summary {
  table th {
     font-weight: bold;
 
-    border-bottom: 1px solid #cccccc;
-    border-right: 1px solid #cccccc;
+    border-bottom: 1px solid #d6d6d6d6;
+    border-right: 1px solid #d6d6d6d6;
 }
 table td {
-    border-right: 1px solid #cccccc;
+    border-right: 1px solid #d6d6d6d6;
 }
 table th:last-child, table td:last-child {
     border-right: none;

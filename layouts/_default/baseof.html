@@ -8,23 +8,24 @@
 
         <link href="/css/reset.css" rel="stylesheet" type="text/css" />
         <link href="/css/style.css" rel="stylesheet" type="text/css" />
-        <link href="/css/components.css" rel="stylesheet" type="text/css" />
+        <link href="/css/header.css" rel="stylesheet" type="text/css" />
+        <link href="/css/footer.css" rel="stylesheet" type="text/css" />
 
         {{ block "css" . }}{{ end }}
     </head>
     <body>
         {{ block "body" . }}
-            <header>
-                {{ partial "navigationBar.html" . }}
-            </header>
+            {{ partial "header.html" . }}
+
             <main>
-                <div class="container">
-                    {{ block "main" . }}{{ end }}
-                </div>
+                {{ block "main" . }}
+                    <div class="container">
+                        {{ block "content" . }}{{ end }}
+                    </div>
+                {{ end }}
             </main>
-            <footer class="footer">
-                {{ partial "footer.html" . }}
-            </footer>
+
+            {{ partial "footer.html" . }}
         {{ end }}
     </body>
 </html>
