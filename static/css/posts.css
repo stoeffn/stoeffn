@@ -1,21 +1,17 @@
 /**
- * === BLOG ===
+ * === POSTS ===
  */
 
-/**
- * --- POSTS ---
- */
-
-.post h1, .postPreview h1 {
+.post h1, .post-preview h1 {
     margin-bottom: 4px;
 }
-.post .publishDate, .postPreview .publishDate {
+.post .publishDate, .post-preview .publishDate {
     color: #3F6E74;
 }
-.post .publishDate::before, .postPreview .publishDate::before {
+.post .publishDate::before, .post-preview .publishDate::before {
     content: "@ ";
 }
-.postPreview .readMore {
+.post-preview .readMore {
     font-size: 17px;
 }
 

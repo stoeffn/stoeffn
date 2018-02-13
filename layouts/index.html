@@ -1,11 +1,11 @@
 {{ define "css" }}
-    {{ partial "css" "blog" }}
+    {{ partial "css" "posts" }}
 {{ end }}
 
 {{ define "content" }}
     {{ $paginator := .Paginate (where .Data.Pages "Type" "posts") }}
     {{ range $paginator.Pages }}
-        {{ partial "postPreview" . }}
+        {{ partial "posts/preview" . }}
     {{ end }}
     {{ template "_internal/pagination.html" . }}
 {{ end }}
