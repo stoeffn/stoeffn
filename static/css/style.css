@@ -110,6 +110,7 @@ sub {
     font-family: monospace;
     text-decoration: none;
 
+    transition-property: opacity;
     transition-duration: 300ms;
 }
 a:hover {
@@ -132,7 +133,7 @@ h1 {
     margin-top: 20px;
     margin-bottom: 16px;
 
-    font-size: 36px;
+    font-size: 28px;
     font-weight: normal;
     font-family: monospace;
     color: #007400;
@@ -141,6 +142,7 @@ h1::before {
     content: "// ";
 }
 a h1 {
+    transition-property: opacity;
     transition-duration: 300ms;
 }
 a h1:hover {
@@ -153,7 +155,7 @@ h2 {
     margin-top: 16px;
     margin-bottom: 12px;
 
-    font-size: 28px;
+    font-size: 24px;
 }
 h3 {
     margin-top: 12px;
@@ -182,12 +184,17 @@ h6 {
 
 @media (min-width: 650px) {
     h1 {
-        margin-left: -65px;
+        margin-left: -51px;
     }
 }
 @media (min-width: 768px) {
     h1 {
         margin-left: 0;
+
+        font-size: 36px;
+    }
+    h2 {
+        font-size: 28px;
     }
 }
 @media (min-width: 810px) {
