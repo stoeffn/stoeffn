@@ -260,7 +260,7 @@ ul {
  */
 
 ol {
-    list-style-type: lower-roman;
+    list-style-type: decimal;
 }
 
 /*
