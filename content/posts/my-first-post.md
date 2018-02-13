@@ -4,13 +4,14 @@ date: 2018-02-11T21:52:30+01:00
 draft: false
 ---
 
+Demo Markdown file with lots of demo content.
+<!--more-->
+
 <style>
     .post img {
         max-width: 384px;
     }
 </style>
-
-Demo Markdown file:  
 
 # h1 Heading
 ## h2 Heading

@@ -15,6 +15,9 @@
 .post .publishDate::before, .postPreview .publishDate::before {
     content: "@ ";
 }
+.postPreview .readMore {
+    font-size: 17px;
+}
 
 /**
  * --- PAGINATION ---

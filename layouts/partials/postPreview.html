@@ -3,8 +3,6 @@
         <a href="{{ .Permalink }}"><h1>{{ .Title }}</h1></a>
         <span class="publishDate">{{ .PublishDate.Format "January 2, 2006" }}</span>
     </header>
-    <p>
-        {{ .Summary }}…<br />
-        <a href="{{ .Permalink }}">Read more…</a>
-    </p>
+    {{ .Summary }}
+    <a class="readMore" href="{{ .Permalink }}">Read more…</a>
 </article>
