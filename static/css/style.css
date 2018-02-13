@@ -108,6 +108,7 @@ sub {
  a {
     color: #0E0EFF;
     font-family: monospace;
+    font-size: 17px;
     text-decoration: none;
 
     transition-duration: 300ms;

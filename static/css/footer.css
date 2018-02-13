@@ -1,7 +1,16 @@
-.footer {
+/**
+ * === FOOTER ===
+ */
+ 
+ .footer {
     padding-top: 16px;
     padding-bottom: 16px;
 }
+
+/**
+ * --- LINKS ---
+ */
+
 .footer ul {
     margin: 0;
 
@@ -16,6 +25,11 @@
 .footer li a:first-child {
     padding-left: 0;
 }
+
+/**
+ * --- COPYRIGHT ---
+ */
+
 .footer .copyright {
     color: #888888;
     font-size: 14px;
