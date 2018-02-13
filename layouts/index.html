@@ -3,7 +3,8 @@
 {{ end }}
 
 {{ define "content" }}
-    {{ range .Paginator.Pages }}
+    {{ $paginator := .Paginate (where .Data.Pages "Type" "posts") }}
+    {{ range $paginator.Pages }}
         {{ partial "postPreview" . }}
     {{ end }}
     {{ template "_internal/pagination.html" . }}
