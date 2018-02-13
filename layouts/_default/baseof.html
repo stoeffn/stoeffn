@@ -6,10 +6,10 @@
 
         <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
 
-        <link href="/css/reset.css" rel="stylesheet" type="text/css" />
-        <link href="/css/style.css" rel="stylesheet" type="text/css" />
-        <link href="/css/header.css" rel="stylesheet" type="text/css" />
-        <link href="/css/footer.css" rel="stylesheet" type="text/css" />
+        {{ partial "css" "reset" }}
+        {{ partial "css" "style" }}
+        {{ partial "css" "header" }}
+        {{ partial "css" "footer" }}
 
         {{ block "css" . }}{{ end }}
     </head>
