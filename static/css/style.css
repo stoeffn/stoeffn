@@ -141,6 +141,15 @@ h1 {
 h1::before {
     content: "// ";
 }
+a h1 {
+    transition-duration: 300ms;
+}
+a h1:hover {
+    opacity: 0.6;
+}
+a h1:active {
+    opacity: 0.4;
+}
 h2 {
     margin-top: 16px;
     margin-bottom: 12px;

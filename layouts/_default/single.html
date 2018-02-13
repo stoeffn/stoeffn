@@ -1,1 +1,13 @@
-Single
+{{ define "css" }}
+    <link href="/css/blog.css" rel="stylesheet" type="text/css" />
+{{ end }}
+
+{{ define "content" }}
+    <article class="post">
+        <header>
+            <a href="{{ .Permalink }}"><h1>{{ .Title }}</h1></a>
+            <span class="publishDate">{{ .PublishDate.Format "January 2, 2006" }}</span>
+        </header>
+        {{ .Content }}
+    </article>
+{{ end }}

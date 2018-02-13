@@ -3,24 +3,16 @@
  */
 
 /**
- * --- PREVIEWS ---
+ * --- POSTS ---
  */
 
-.postPreview h1 {
+.post h1, .postPreview h1 {
     margin-bottom: 4px;
-
-    transition-duration: 300ms;
 }
-.postPreview h1:hover {
-    opacity: 0.6;
+.post .publishDate, .postPreview .publishDate {
+    color: #3F6E74;
 }
-.postPreview h1:active {
-    opacity: 0.4;
-}
-.postPreview .publishDate {
-    color: #26474B;
-}
-.postPreview .publishDate::before {
+.post .publishDate::before, .postPreview .publishDate::before {
     content: "@ ";
 }
 
