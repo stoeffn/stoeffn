@@ -1,3 +1,11 @@
+/*
+ * === LAYOUT ===
+ */
+
+/*
+ * --- BODY ---
+ */
+
 body {
     font-family: SF Pro Text, Helvetica Neue, Helvetica, Arial, sans-serif;
     -webkit-hyphens: auto;
@@ -9,6 +17,10 @@ body {
     background-color: #f7f7f7;
 }
 
+/*
+ * --- MAIN ---
+ */
+
 main {
     padding-top: 72px;
     padding-bottom: 24px;
@@ -16,8 +28,86 @@ main {
     background: white;
 }
 
-a {
-    color: #00509b;
+/*
+ * --- CONTAINER ---
+ */
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 512px;
+    }
+}
+@media (min-width: 768px) {
+    .container {
+        max-width: 680px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        max-width: 900px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+
+/*
+ * === TEXT ===
+ */
+
+ /*
+ * --- PARAGRAPHS ---
+ */
+
+p {
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+    color: #555555;
+    font-size: 17px;
+}
+
+/*
+ * --- TEXT STYLES ---
+ */
+
+em {
+    font-style: italic;
+}
+
+strong {
+    font-weight: bold;
+}
+
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+
+    position: relative;
+}
+sup {
+    top: -0.5em;
+}
+sub {
+    bottom: -0.25em;
+}
+
+/*
+ * --- LINKS ---
+ */
+
+ a {
+    color: #0E0EFF;
+    font-family: monospace;
     text-decoration: none;
 
     transition-duration: 300ms;
@@ -29,20 +119,9 @@ a:active {
     opacity: 0.4;
 }
 
-em {
-    font-weight: bold;
-    font-style: italic;
-}
-
-p, li {
-    color: #555555;
-    font-size: 17px;
-}
-
-p {
-    padding-top: 8px;
-    padding-bottom: 8px;
-}
+/*
+ * --- HEADLINES ---
+ */
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
@@ -54,6 +133,12 @@ h1 {
     margin-bottom: 16px;
 
     font-size: 36px;
+    font-weight: normal;
+    font-family: monospace;
+    color: #007400;
+}
+h1::before {
+    content: "// ";
 }
 h2 {
     margin-top: 16px;
@@ -86,57 +171,149 @@ h6 {
     font-size: 17px;
 }
 
+@media (min-width: 650px) {
+    h1 {
+        margin-left: -65px;
+    }
+}
+@media (min-width: 768px) {
+    h1 {
+        margin-left: 0;
+    }
+}
+@media (min-width: 810px) {
+    h1 {
+        margin-left: -65px;
+    }
+}
+@media (min-width: 992px) {
+    h1 {
+        margin-left: 0;
+    }
+}
+@media (min-width: 1030px) {
+    h1 {
+        margin-left: -65px;
+    }
+}
+
+/*
+ * --- DELIMITERS ---
+ */
+
+hr {
+    margin: 16px;
+
+    border: none;
+    border-top: 1px solid #cccccc;
+}
+
+/*
+ * --- CODE ---
+ */
+
+code {
+    font-family: monospace;
+}
+pre {
+    padding: 8px;
+    
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+
+    overflow-x: scroll;
+}
+pre > code {
+    display: block;
+}
+
+/*
+ * === LISTS ===
+ */
+
+ul, ol {
+    margin-left: 32px;
+
+    color: #555555;
+    font-size: 17px;
+}
+
+/*
+ * --- UNORDERED ---
+ */
+
+ul {
+    list-style-type: disc;
+}
+
+/*
+ * --- ORDERED ---
+ */
+
+ol {
+    list-style-type: lower-roman;
+}
+
+/*
+ * === BLOCKS ===
+ */
+
+/*
+ * --- QUOTES ---
+ */
+
+blockquote {
+    position: relative;
+
+    padding: 4px;
+    padding-left: 8px;
+
+    background-color: #AA0D9122;
+    border-left: 4px solid #AA0D91;
+    border-radius: 4px;
+}
+blockquote > p {
+    padding: 4px 0;
+
+    color: black;
+}
+
+/*
+ * --- DETAILS ---
+ */
+
 details {
     padding-top: 8px;
     padding-bottom: 8px;
-}
-summary {
-    font-weight: 500;
-    color: #00509b;
-    outline: none;
 }
 details p {
     padding-left: 18px;
 }
 
-.container {
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 16px;
-    padding-right: 16px;
+summary {
+    font-weight: 500;
+    color: #0E0EFF;
+    outline: none;
 }
 
-.footnote {
-    font-size: 13px;
-    opacity: 0.6;
+/*
+ * === TABLES ===
+ */
+
+ table th, table td {
+    padding: 1px 8px;
+
+    color: black;
+ }
+ table th {
+    font-weight: bold;
+
+    border-bottom: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
 }
-
-ul.list {
-    margin-left: 42px;
-
-    list-style-type: disc;
+table td {
+    border-right: 1px solid #cccccc;
 }
-
-@media (min-width: 576px) {
-    .container {
-        max-width: 512px;
-    }
-}
-
-@media (min-width: 768px) {
-    .container {
-        max-width: 680px;
-    }
-}
-
-@media (min-width: 992px) {
-    .container {
-        max-width: 900px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .container {
-        max-width: 1024px;
-    }
+table th:last-child, table td:last-child {
+    border-right: none;
 }
