@@ -1,5 +1,5 @@
 # Stoeffn
-Welcome! This is the source code for my [personal website](https://stoeffn.de), which is a work-in-progress blog and projects hub. Feel free to axplore and use parts for your own work :)
+Welcome! This is the source code for my [personal website](https://stoeffn.de), which is a work-in-progress blog and projects hub. Feel free to explore and use parts for your own work :)
 
 ## Stack
 As personal websites are almost never dynamic in a way that requires server-side code, I've decided to [Go Hugo](https://gohugo.io). Hugo is popular static site generator that strives for simplicity and performance. It offers powerful templating as well as easy content management with a simple format loved by many developers: Markdown.
@@ -11,7 +11,7 @@ As a final layer, I use [Cloudflare](https://www.cloudflare.com) for DNS managem
 ## Getting Started
 Want to fiddle around a little bit? Sure! Take a look at the [Hugo Quick Start Guide](https://gohugo.io/getting-started/quick-start/), install it and you are ready to go!
 
-> Type `hugo server` to start a local development server at `localhost:1313`.
+> Type `hugo server` to start a local development server at http://localhost:1313.
 
 ## Deployment
 In order to automate deployment, I've created a simple shell script `./deploy.sh`. In a matter of seconds, a new version of the website can be deployed by typing one command:
