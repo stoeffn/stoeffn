@@ -22,7 +22,7 @@
 .footer li a {
     padding: 8px;
 }
-.footer li a:first-child {
+.footer li:first-child a {
     padding-left: 0;
 }
 

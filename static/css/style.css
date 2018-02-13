@@ -289,6 +289,26 @@ blockquote > p {
 }
 
 /*
+ * --- ADDRESSES ---
+ */
+
+ address {
+    position: relative;
+
+    padding: 4px;
+    padding-left: 8px;
+
+    background-color: #AA0D9122;
+    border-left: 4px solid #AA0D91;
+    border-radius: 4px;
+}
+address > p {
+    padding: 4px 0;
+
+    color: black;
+}
+
+/*
  * --- DETAILS ---
  */
 
