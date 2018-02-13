@@ -32,6 +32,9 @@ ul.pagination li {
 
     display: inline;
 }
+ul.pagination li a {
+    font-size: 17px;
+}
 ul.pagination li:first-child {
     margin-left: 0;
 }

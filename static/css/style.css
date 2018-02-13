@@ -108,7 +108,6 @@ sub {
  a {
     color: #0E0EFF;
     font-family: monospace;
-    font-size: 17px;
     text-decoration: none;
 
     transition-duration: 300ms;
@@ -298,8 +297,10 @@ blockquote > p {
     padding: 4px;
     padding-left: 8px;
 
-    background-color: #AA0D9122;
-    border-left: 4px solid #AA0D91;
+    font-family: monospace;
+    font-size: 15px;
+    background-color: #5C269922;
+    border-left: 4px solid #5C2699;
     border-radius: 4px;
 }
 address > p {

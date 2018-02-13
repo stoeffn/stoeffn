@@ -13,7 +13,7 @@ _Information in accordance with section 5 TMG:_
     Ringstraße 17<br />
     31188 Holle<br />
     <br />
-    Telephone: <a href="tel:+49-157-52755968">+49 157 52755968</a><br />
+    Phone: <a href="tel:+49-157-52755968">+49 157 52755968</a><br />
     Email: <a href="mailto:mail@stoeffn.de">mail@stoeffn.de</a><br />
 </address>
 
