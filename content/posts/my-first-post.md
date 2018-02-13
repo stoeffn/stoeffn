@@ -80,6 +80,21 @@ Start numbering with offset:
 57. foo
 1. bar
 
+Definitions
+
+Cat
+: Fluffy animal everyone likes
+
+Internet
+: Vector of transmission for pictures of cats
+
+Tasks
+
+- [ ] a task list item
+- [ ] list syntax required
+- [ ] incomplete
+- [x] completed
+
 
 ## Images
 
