@@ -1,1 +1,16 @@
-List
+{{ define "css" }}
+    <link href="/css/blog.css" rel="stylesheet" type="text/css" />
+{{ end }}
+
+{{ define "content" }}
+    {{ range .Paginator.Pages }}
+        <article>
+            <header>
+                <h1>{{ .Title }}</h1>
+                {{ .PublishDate.Format "January 2, 2006" }}
+            </header>
+            {{ .Summary }}
+        </article>
+    {{ end }}
+    {{ template "_internal/pagination.html" . }}
+{{ end }}

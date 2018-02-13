@@ -1,0 +1,21 @@
+ul.pagination {
+    margin: 16px 0;
+
+    list-style-type: none;
+}
+ul.pagination li {
+    margin: 4px;
+
+    font-family: monospace;
+
+    display: inline;
+}
+ul.pagination li:first-child {
+    margin-left: 0;
+}
+ul.pagination li.disabled a {
+    color: #888888;
+}
+ul.pagination li.active a {
+    color: #AA0D91;
+}
