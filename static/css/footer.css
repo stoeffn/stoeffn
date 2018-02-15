@@ -12,18 +12,17 @@
  */
 
 .footer ul {
-    margin: 0;
+    margin: 0 -8px;
 
     list-style-type: none;
 }
 .footer li {
+    margin: 4px;
+
     display: inline-block;
 }
 .footer li a {
-    padding: 8px;
-}
-.footer li:first-child a {
-    padding-left: 0;
+    padding: 4px;
 }
 
 /**
