@@ -44,6 +44,8 @@
     padding-top: 11px;
     align-items: flex-start;
 
+    font-family: monospace;
+
     display: flex;
 }
 .header li a {

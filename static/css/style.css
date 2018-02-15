@@ -107,7 +107,6 @@ sub {
 
  a {
     color: #0E0EFF;
-    font-family: monospace;
     text-decoration: none;
 
     transition-property: opacity;
@@ -141,14 +140,14 @@ h1 {
 h1::before {
     content: "// ";
 }
-a h1 {
+a h1, a h2, a h3, a h4, a h5, a h6 {
     transition-property: opacity;
     transition-duration: 300ms;
 }
-a h1:hover {
+a:hover h1, a:hover h2, a:hover h3, a:hover h4, a:hover h5, a:hover h6 {
     opacity: 0.6;
 }
-a h1:active {
+a:active h1, a:active h2, a:active h3, a:active h4, a:active h5, a:active h6 {
     opacity: 0.4;
 }
 h2 {

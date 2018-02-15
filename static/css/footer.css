@@ -23,6 +23,8 @@
 }
 .footer li a {
     padding: 4px;
+
+    font-family: monospace;
 }
 
 /**
