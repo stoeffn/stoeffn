@@ -23,13 +23,14 @@ body {
 
 main {
     padding-top: 56px;
-    padding-bottom: 16px;
+    padding-bottom: 32px;
 
     background: white;
 }
 @media (min-width: 576px) {
     main {
         padding-top: 64px;
+        padding-bottom: 42px;
     }
 }
 
@@ -223,7 +224,7 @@ a:active h1, a:active h2, a:active h3, a:active h4, a:active h5, a:active h6 {
  */
 
 hr {
-    margin: 16px 0;
+    margin: 24px 0;
 
     border: none;
     border-top: 1px solid #d6d6d6d6;
@@ -320,8 +321,9 @@ dl dt:first-child {
 blockquote {
     position: relative;
 
+    margin: 8px 0;
     padding: 4px;
-    padding-left: 8px;
+    padding-left: 12px;
 
     background-color: #AA0D9122;
     border-left: 4px solid #AA0D91;
@@ -363,6 +365,7 @@ summary {
     padding: 16px 0;
 
     color: #555555;
+    font-size: 17px;
     font-weight: bold;
 }
 
