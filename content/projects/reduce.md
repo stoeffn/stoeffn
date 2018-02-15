@@ -29,3 +29,5 @@ The life view itself itself is made with `SpriteKit`, which was a pretty enjoyab
 If you're interested, take a look at the [_Playground_'s source code on _GitHub_](https://github.com/stoeffn/Reduce/).
 
 *Thanks for your interest!*
+
+If you like my content, I would be honored if you gave my website a star on [GitHub](https://github.com/stoeffn/stoeffn)!

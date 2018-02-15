@@ -114,6 +114,8 @@ Even tough it is lacking documentation, _Persistent History_ is tent pole featur
 
 And thank you, dear reader, for baring with me to the end! I hope you enjoyed my first "real" blog post :)
 
+If you did, I would be honored if you gave my website a star on [GitHub](https://github.com/stoeffn/stoeffn)!
+
 As a bonus, you can find a fully working implementation below, which I developed for _StudApp_. Use it as you like!
 
 ## My Implementation
