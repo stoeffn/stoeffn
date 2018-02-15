@@ -31,13 +31,13 @@
  * --- LINKS ---
  */
 
-.header h2, .header a, .header ul, .header li {
+.header h1, .header a, .header ul, .header li {
     margin: 0;
     height: 100%;
 
     display: inline-block;
 }
-.header h2 {
+.header h1 {
     margin-right: 8px;
 }
 .header a {
@@ -55,10 +55,13 @@
 .header li a:last-child {
     padding-right: 0;
 }
-.header h2, .header h2 a {
+.header h1, .header h1 a {
     color: #26474B;
     font-size: 24px;
     font-weight: bold;
+}
+.header h1::before {
+    content: none;
 }
 
 @media (min-width: 300px) {

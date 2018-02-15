@@ -128,33 +128,30 @@ h1, h2, h3, h4, h5, h6 {
     color: #222222;
     line-height: 1.1;
 }
+h1, h2 {
+    font-weight: normal;
+    font-family: monospace;
+}
 h1 {
+    margin-left: -4px;
     margin-top: 20px;
     margin-bottom: 16px;
 
-    font-size: 28px;
-    font-weight: normal;
-    font-family: monospace;
     color: #007400;
+    font-size: 28px;
 }
 h1::before {
     content: "// ";
-}
-a h1, a h2, a h3, a h4, a h5, a h6 {
-    transition-property: opacity;
-    transition-duration: 300ms;
-}
-a:hover h1, a:hover h2, a:hover h3, a:hover h4, a:hover h5, a:hover h6 {
-    opacity: 0.6;
-}
-a:active h1, a:active h2, a:active h3, a:active h4, a:active h5, a:active h6 {
-    opacity: 0.4;
 }
 h2 {
     margin-top: 16px;
     margin-bottom: 12px;
 
+    color: #643820;
     font-size: 24px;
+}
+h2::before {
+    content: "# ";
 }
 h3 {
     margin-top: 12px;
@@ -180,35 +177,35 @@ h6 {
 
     font-size: 17px;
 }
+a h1, a h2, a h3, a h4, a h5, a h6 {
+    transition-property: opacity;
+    transition-duration: 300ms;
+}
+a:hover h1, a:hover h2, a:hover h3, a:hover h4, a:hover h5, a:hover h6 {
+    opacity: 0.6;
+}
+a:active h1, a:active h2, a:active h3, a:active h4, a:active h5, a:active h6 {
+    opacity: 0.4;
+}
 
-@media (min-width: 650px) {
+@media (min-width: 576px) {
     h1 {
-        margin-left: -51px;
+        margin-left: -52px;
+    }
+    h2 {
+        margin-left: -30px;
     }
 }
 @media (min-width: 768px) {
     h1 {
-        margin-left: 0;
+        margin-left: -66px;
 
         font-size: 36px;
     }
     h2 {
+        margin-left: -35px;
+
         font-size: 28px;
-    }
-}
-@media (min-width: 810px) {
-    h1 {
-        margin-left: -65px;
-    }
-}
-@media (min-width: 992px) {
-    h1 {
-        margin-left: 0;
-    }
-}
-@media (min-width: 1030px) {
-    h1 {
-        margin-left: -65px;
     }
 }
 
@@ -217,7 +214,7 @@ h6 {
  */
 
 hr {
-    margin: 16px;
+    margin: 16px 0;
 
     border: none;
     border-top: 1px solid #d6d6d6d6;
@@ -350,6 +347,17 @@ address > p {
 }
 
 /*
+ * --- SUMMARIES ---
+ */
+
+summary {
+    padding: 16px 0;
+
+    color: #555555;
+    font-weight: bold;
+}
+
+/*
  * --- DETAILS ---
  */
 
@@ -360,9 +368,7 @@ details {
 details p {
     padding-left: 18px;
 }
-
-summary {
-    font-weight: 500;
+details summary {
     color: #0E0EFF;
     outline: none;
 }

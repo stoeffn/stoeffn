@@ -2,7 +2,7 @@
  * === POSTS ===
  */
 
-.post h1, .post-preview h1 {
+.post h1, .post-preview h2 {
     margin-bottom: 4px;
 }
 .post .publish-date, .post-preview .publish-date {
@@ -11,9 +11,18 @@
 .post .publish-date::before, .post-preview .publish-date::before {
     content: "@ ";
 }
+.post-preview summary {
+    padding-bottom: 0;
+}
 .post-preview .read-more {
     font-size: 17px;
     font-family: monospace;
+}
+
+@media (min-width: 576px) {
+    .post .publish-date, .post-preview .publish-date {
+        margin-left: -20px;
+    }
 }
 
 /**
