@@ -3,7 +3,11 @@
 {{ end }}
 
 {{ define "content" }}
-    {{ $paginator := .Paginate (where .Data.Pages "Type" "posts") }}
+    <h1>About</h1>
+
+    <h1>Posts</h1>
+
+    {{ $paginator := .Paginate (where .Data.Pages "Section" "!=" "") }}
     {{ range $paginator.Pages }}
         {{ partial "posts/preview" . }}
     {{ end }}

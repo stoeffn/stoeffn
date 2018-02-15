@@ -5,6 +5,7 @@
 {{ end }}
 
 {{ define "content" }}
+    {{ .Content }}
     {{ range .Paginator.Pages }}
         {{ partial "posts/preview" . }}
     {{ end }}

@@ -9,6 +9,7 @@
         <header>
             <a href="{{ .Permalink }}"><h1>{{ .Title }}</h1></a>
             <span class="publish-date">{{ .PublishDate.Format "January 2, 2006" }}</span>
+            <summary>{{ .Description }}</summary>
         </header>
         {{ .Content }}
     </article>
