@@ -21,6 +21,9 @@
     font-size: 17px;
     font-family: monospace;
 }
+.post-preview {
+    padding: 8px 0;
+}
 
 @media (min-width: 576px) {
     .post .publish-date, .post-preview .publish-date {

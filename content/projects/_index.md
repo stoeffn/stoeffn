@@ -6,4 +6,4 @@ draft: false
 
 # Projects
 
-**This is where my projects will live—stay tuned!**
+**This where I'd like to showcase my projects. There is much more to come—stay tuned!**
