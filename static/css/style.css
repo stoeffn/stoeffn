@@ -164,7 +164,7 @@ h2::before {
     content: "#";
 }
 h3 {
-    margin-top: 12px;
+    margin-top: 16px;
     margin-bottom: 8px;
 
     font-size: 22px;
@@ -246,6 +246,8 @@ pre {
     overflow-x: scroll;
 }
 pre > code {
+    font-size: 14px;
+
     display: block;
 }
 
