@@ -9,7 +9,9 @@
     color: #3F6E74;
 }
 .post .publish-date::before, .post-preview .publish-date::before {
-    content: "@ ";
+    padding-right: 6px;
+
+    content: "@";
 }
 .post-preview summary {
     padding-bottom: 0;
@@ -21,7 +23,7 @@
 
 @media (min-width: 576px) {
     .post .publish-date, .post-preview .publish-date {
-        margin-left: -20px;
+        margin-left: -21px;
     }
 }
 

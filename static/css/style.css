@@ -22,10 +22,15 @@ body {
  */
 
 main {
-    padding-top: 72px;
-    padding-bottom: 24px;
+    padding-top: 56px;
+    padding-bottom: 16px;
 
     background: white;
+}
+@media (min-width: 576px) {
+    main {
+        padding-top: 64px;
+    }
 }
 
 /*
@@ -141,7 +146,9 @@ h1 {
     font-size: 28px;
 }
 h1::before {
-    content: "// ";
+    padding-right: 8px;
+
+    content: "//";
 }
 h2 {
     margin-top: 16px;
@@ -151,7 +158,9 @@ h2 {
     font-size: 24px;
 }
 h2::before {
-    content: "# ";
+    padding-right: 8px;
+
+    content: "#";
 }
 h3 {
     margin-top: 12px;
@@ -190,20 +199,20 @@ a:active h1, a:active h2, a:active h3, a:active h4, a:active h5, a:active h6 {
 
 @media (min-width: 576px) {
     h1 {
-        margin-left: -52px;
+        margin-left: -42px;
     }
     h2 {
-        margin-left: -30px;
+        margin-left: -23px;
     }
 }
 @media (min-width: 768px) {
     h1 {
-        margin-left: -66px;
+        margin-left: -53px;
 
         font-size: 36px;
     }
     h2 {
-        margin-left: -35px;
+        margin-left: -26px;
 
         font-size: 28px;
     }
