@@ -1,5 +1,5 @@
 baseURL = "https://www.stoeffn.de/"
 languageCode = "en-us"
 title = "Stoeffn"
-copyright = "© Copyright Steffen Ryll, {year}"
+copyright = "© Copyright Steffen Ryll, 2018"
 enableRobotsTXT = true
