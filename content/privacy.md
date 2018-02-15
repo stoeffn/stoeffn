@@ -18,4 +18,7 @@ To optimize our web presence, we use cookies. These are small text files stored 
 You can prevent storage of cookies by choosing a "disable cookies" option in your browser settings. But this can limit the functionality of our Internet offers as a result.
 
 ## Disclosure
-According to the Federal Data Protection Act, you have a right to free-of-charge information about your stored data, and possibly entitlement to correction, blocking or deletion of such data. Inquiries can be directed to the email address [mail@stoeffn.de](mailto:mail@stoeffn.de)
+According to the Federal Data Protection Act, you have a right to free-of-charge information about your stored data, and possibly entitlement to correction, blocking or deletion of such data. Inquiries can be directed to the email address [mail@stoeffn.de](mailto:mail@stoeffn.de).
+
+## Third Parties
+The contents of this web presence are hosted by [GitHub Inc.](https://github.com) and routed through servers operated by [Cloudflare Inc.](https://www.cloudflare.com) in order to provide improved security, performance, and availability.
