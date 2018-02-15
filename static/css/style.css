@@ -391,22 +391,26 @@ details summary {
  */
 
  figure {
-    padding: 2px;
+    max-width: 100%;
+    margin: 8px 0;
 
     background-color: #3F6E74;
     border-radius: 4px;
 
     display: inline-block;
+    overflow-x: scroll;
  }
  figcaption h4 {
     margin: 0 4px;
-    margin-bottom: 4px;
+    margin-bottom: 8px;
 
     color: white;
     font-size: 15px;
     font-weight: normal;
  }
  figure img {
+    margin: 2px;
+
     border-radius: 2px;
  }
 
