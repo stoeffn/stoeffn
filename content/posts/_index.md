@@ -6,6 +6,6 @@ draft: false
 
 # Blog
 
-**Here, you can find all my blog posts—you can reach me at [stoeffn@mail.com](mailto:stoeffn@mail.com) if you found a mistake or have any feedback.**
+**Here, you can find all my blog posts—you can reach me at [mail@stoeffn.com](mailto:mail@stoeffn.com) if you found a mistake or have any feedback.**
 
 ---

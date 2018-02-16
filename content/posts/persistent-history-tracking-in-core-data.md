@@ -21,7 +21,7 @@ However, it has a huge drawback: User experience. Without caching, the app just 
 
 ### Switching to Core Data
 
-That is why a decided to use _Core Data_ instead. This lovely piece of engineering helped me create rich and performant user interactions.
+That is why I decided to use _Core Data_ instead. This lovely piece of engineering helped me create rich and performant user interactions.
 
 Then I added my file provider. Suddenly, two sand-boxed processes had to access my database. Doing it sequentially worked just fine. But while the other was running? Bugs. Crashes. Fire.
 
