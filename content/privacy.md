@@ -3,6 +3,7 @@ title: "Privacy Policy"
 date: 2018-02-13T16:06:34+01:00
 draft: false
 ---
+<!--more-->
 
 ## General
 Your personal data (e.g. title, name, house address, email address, phone number, bank details, credit card number) are processed by us only in accordance with the provisions of German data privacy laws. The following provisions describe the type, scope and purpose of collecting, processing and utilizing personal data. This data privacy policy applies only to our web pages. If links on our pages route you to other pages, please inquire there about how your data are handled in such cases.

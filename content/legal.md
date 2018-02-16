@@ -3,6 +3,7 @@ title: "Legal Disclosure"
 date: 2018-02-13T15:49:52+01:00
 draft: false
 ---
+<!--more-->
 
 ## Contact Information
 
@@ -33,4 +34,4 @@ Our obligations to remove or block the use of information under generally applic
 Responsibility for the content of external links (to web pages of third parties) lies solely with the operators of the linked pages. No violations were evident to us at the time of linking. Should any legal infringement become known to us, we will remove the respective link immediately.
 
 ## License
-This website as well as its contents are licensed under [MIT](https://tldrlegal.com/license/mit-license). The license can is reproduced [here](https://github.com/stoeffn/stoeffn/blob/master/LICENSE.md) inside the GitHub repository containing this website's source code.
+This website as well as its contents are licensed under [MIT](https://tldrlegal.com/license/mit-license). The license is reproduced [here](https://github.com/stoeffn/stoeffn/blob/master/LICENSE.md) inside the GitHub repository containing this website's source code.
