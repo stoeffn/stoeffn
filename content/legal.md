@@ -1,5 +1,6 @@
 ---
 title: "Legal Disclosure"
+description: "Information and paragraphs as required by German law."
 date: 2018-02-13T15:49:52+01:00
 draft: false
 ---

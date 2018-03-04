@@ -341,7 +341,7 @@ blockquote > p {
  * --- ADDRESSES ---
  */
 
- address {
+address {
     position: relative;
 
     margin: 8px 0;
@@ -392,7 +392,7 @@ details summary {
  * === FIGURES ===
  */
 
- figure {
+figure {
     max-width: 100%;
     margin: 8px 0;
 
@@ -401,31 +401,31 @@ details summary {
 
     display: inline-block;
     overflow-x: scroll;
- }
- figcaption h4 {
+}
+figcaption h4 {
     margin: 0 4px;
     margin-bottom: 8px;
 
     color: white;
     font-size: 15px;
     font-weight: normal;
- }
- figure img {
+}
+figure img {
     margin: 2px;
 
     border-radius: 2px;
- }
+}
 
 /*
  * === TABLES ===
  */
 
- table th, table td {
+table th, table td {
     padding: 1px 8px;
 
     color: black;
- }
- table th {
+}
+table th {
     font-weight: bold;
 
     border-bottom: 1px solid #d6d6d6d6;

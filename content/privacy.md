@@ -1,5 +1,6 @@
 ---
 title: "Privacy Policy"
+description: "How I treat your data—TL;DR: I don't, it's all hosted by GitHub and CloudFlare."
 date: 2018-02-13T16:06:34+01:00
 draft: false
 ---
