@@ -13,7 +13,6 @@ body {
     -ms-hyphens: auto;
     hyphens: auto;
     line-height: 1.5;
-    
     background-color: #f7f7f7;
 }
 
@@ -236,6 +235,10 @@ hr {
 
 code {
     font-family: monospace;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
 }
 pre {
     padding: 8px;
