@@ -173,18 +173,21 @@ h4 {
     margin-bottom: 6px;
 
     font-size: 20px;
+    font-weight: 600;
 }
 h5 {
     margin-top: 8px;
     margin-bottom: 4px;
 
     font-size: 18px;
+    font-weight: 500;
 }
 h6 {
     margin-top: 6px;
     margin-bottom: 2px;
 
     font-size: 17px;
+    font-weight: 500;
 }
 a h1, a h2, a h3, a h4, a h5, a h6 {
     transition-property: opacity;
@@ -405,7 +408,13 @@ figure {
     display: inline-block;
     overflow-x: scroll;
 }
-figcaption h4 {
+figure.unframed {
+    width: 100%;
+
+    text-align: center;
+    background: none;
+}
+figure figcaption h4 {
     margin: 0 4px;
     margin-bottom: 8px;
 
@@ -413,10 +422,14 @@ figcaption h4 {
     font-size: 15px;
     font-weight: normal;
 }
+figure.unframed figcaption h4 {
+    color: #555555;
+}
 figure img {
     margin: 2px;
 
-    border-radius: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
 }
 
 /*

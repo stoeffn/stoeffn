@@ -4,7 +4,7 @@ description: "An opinionated guide to employing Core Data in a modern Swift app.
 date: 2018-03-08T13:18:21+01:00
 draft: false
 ---
-Having been released as early as 2005 alongside with _Mac OS X Tiger_, _Core Data_ has come a long way. But despite being almost 13 years old, _Apple_ has applied serious modernization efforts during the last few years while also adding many new and exciting features.
+Having been released as early as 2005 alongside with _Mac OS X Tiger_, _Core Data_ has come a long way. But despite _Core Data_'s age, _Apple_ has applied serious modernization efforts during the last few years while also adding many new and exciting features.
 
 Due to these modernizations you can now use _Core Data_ with natural and concise _Swift_ syntax. And---using the power of _Swift_ protocols and extensions---one can make working with _Core Data_ even funner!
 <!--more-->
