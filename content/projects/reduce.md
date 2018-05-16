@@ -1,6 +1,6 @@
 ---
 title: "Reduce"
-description: "A functional programming playground and my WWDC '17 scholarship submission."
+description: "Functional programming playground and my WWDC17 scholarship submission."
 date: 2018-02-15T16:59:53+01:00
 draft: false
 ---
