@@ -62,13 +62,13 @@ I've built an efficient mechanism that automatically updates stale data and remo
 Of course, you can also download documents. Learn more about that in _File Management_.
 
 ### Courses
-Users can select their semesters of interest. These semesters are then available in the main view and can be expanded or collapsed, making navigation a breeze. Courses that span multiple semesters correctly appear in all of them.
+Users can select their semesters of interest. These semesters are then available in the main view and can be expanded or collapsed, making navigation a breeze. Courses that span multiple semesters correctly appear in all of them. And if a certain course isn't relevant, you can easily hide it away.
 
 With just a swipe, one can change a course's color and affect how they are sorted. This is pretty useful if you want to keep similar courses together and automatically synchronized with the website.
 
 > This feature requires _Stud.IP 4.2_ or the [CourseGroupPatchRoute plugin](https://develop.studip.de/studip/plugins.php/pluginmarket/presenting/details/ea38bb4d09d55b86f740c4152d5b3ac7).
 
-Apart from announcements and documents, course details views provide additional details, e.g. lecturers, locations, and description with data detection and easy copying. The action button shows a share sheet with a custom activity that opens the course site inline in an `SFSafariViewController`.
+Apart from announcements and documents, course details views provide additional details, e.g. lecturers, locations, the next event, and description with data detection and easy copying. The action button shows a share sheet with a custom activity that opens the course site inline in an `SFSafariViewController`.
 
 You can also swipe-to-refresh manually.
 
@@ -77,12 +77,23 @@ One of the most-used features of _Stud.IP_ is announcements: An easy way for lec
 
 This is why they are also implemented in _StudApp_ and provide almost all formatting options, leveraging `WKWebView`s rendering powers. Nevertheless, fonts adapt to users' type size settings!
 
+New announcements are highlighted automatically.
+
+### Events
+It is always important to know where to go next. This is why---since version 1.1---_StudApp_ supports events by providing a dedicated tab, which shows a user's next two weeks. Events not only include course, time, and location but also the topic of a lecture and a customizable subtitle. A custom date tab bar at the top lets one easily jump to specific dates.
+
+Similarly, you can view a list of all events by course.
+
 ### File Management
 Browsing, downloading, and viewing documents is _StudApp_'s main purpose. Each course has associated with it a root folder that can contain nested folders and documents. Once uploaded by a lecturer, students can access their slides, exercise sheets, solutions, or other learning materials with just the tap of a finger. Previewing files makes use of the native _QuickLook_ capabilities.
 
 Downloaded documents automatically appear in the corresponding tab, grouped by courses. You can also search documents by title, owner, and course.
 
 To make availability obvious, inaccessible documents or folders are greyed out automatically, e.g. when a user's device is offline and a document is not downloaded.
+
+_StudApp_ also highlights new files as well as those that have recently changed. User can also (un-)highlight manually.
+
+Apart from regular files hosted by _Stud.IP_, the app supports downloading or linking to documents hosted by third parties and web links. It also guesses an appropriate file extension if none is given.
 
 ### Privacy
 Yes, privacy is a feature.
@@ -205,7 +216,6 @@ I've implement a minimal approach that lets targets register instances for speci
 ### Frameworks and Libraries
 To give you a broad overview, here are the frameworks and libraries used in _StudApp_:
 
-#### First-Party
 * `CloudKit`---Managing and updating organizations
 * `CommonCrypto`---signing requests
 * `CoreData`---persisting and organizing data
@@ -223,10 +233,7 @@ To give you a broad overview, here are the frameworks and libraries used in _Stu
 * `WebKit`---rendering web-based content like announcements
 * `XCTest`---testing my app
 
-#### Third-Party
-* [Swifter](https://github.com/httpswift/swifter)---Spinning up a simple redirect server needed when signing in
-
-#### Why I Almost Exclusively Use Apple Frameworks
+#### Why I Use Apple Frameworks Almost Exclusively
 One of my personal goals with _StudApp_ is learning more about the exciting opportunities that _Apple_ frameworks provide. This is why I opted for first-party frameworks or implementing simple stuff myself instead of using a bunch of libraries.
 
 Another concern I have is speed and security: Third-party libraries often come bloated with many features I'll never use and slow down app launch as [discussed in a WWDC16 talk](https://developer.apple.com/videos/play/wwdc2016/406/). Moreover, I cannot always verify the integrity and security of such libraries, whereas official _Apple_ frameworks go through more rigorous testing and quality assurance procedures.
