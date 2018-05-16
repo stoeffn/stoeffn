@@ -15,7 +15,7 @@ The playground is divided into four pages: "Filter", "Map", "Reduce", and "Recap
 
 As you can see in the screenshot below, the live view reflects the code on the left, conveying its workings with umm... conveyors.
 
-{{< figure src="../images/reduce.png" title="Screenshot: Filtering, mapping, and reducing… cars?" alt="Screenshot of Reduce" width="768">}}
+{{< figure src="../images/reduce/recap.png" title="Screenshot: Filtering, mapping, and reducing… cars?" alt="Screenshot of Reduce" width="768" class="unframed">}}
 
 Every time the user hits "Run My Code", the live view is updated using the function method in the editable code area. This is to say, it is independent of the page as it allows arbitrary chaining of the three available methods. The array then "enters" the conveyor at the top, making its way down through various machines that perform an operation on each item.
 
