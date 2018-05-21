@@ -8,6 +8,7 @@ In this post, I would like to share my implementation of a simple network reacha
 <!--more-->
 
 ## Usage
+
 To get started, just copy the file below into your project and you are ready to go!
 
 There is an easy-to-access `Reachability.shared` that you should prefer over creating your own instances---doing this for every cell in a table view is not a good idea performance-wise.
@@ -54,6 +55,7 @@ All notifications will be posted on the main queue.
 > Don't forget to remove your observer if it is no longer needed!
 
 ### How It Works
+
 Basically, this class is just a wrapper around `SCNetworkReachability`, which is a _C_-API contained in `SystemConfiguration`. On initialization, it creates a reachability reference to a network host and determines whether or under what conditions it is reachable.
 
 The change watcher also takes advantage of this API. However, there are some restrictions on callback closures as they need to be compatible with _C_ function pointers. This is why you cannot access `self` inside the closure but instead need to wrap a reference tp it inside an opaque reference, which is then passed along and eventually unwrapped in the callback. After that, the process is really straightforward: Make sure the flags actually changed, update the current flags, and post a notification if needed.

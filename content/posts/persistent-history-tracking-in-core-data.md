@@ -101,6 +101,7 @@ try context.execute(deleteHistoryRequest)
 And that's it—congratulations for implementing _Persistent History Tracking_!
 
 ### Tips and Tricks
+
 Before wrapping up, there are a few tips and tricks I'd like to share with you. There first one is so important, I'm gonna frame it:
 
 > Do your merging and deleting inside a `context.performAndWait { … }` block if you want to avoid crashing the entire _Files_ app and yours. I've hunted this bug for quite a while until I saw it in the _WWDC_ demo code…
@@ -110,6 +111,7 @@ Now that this is out of the, here is a cool debugging tip: `NSPersistentHistoryT
 My last tip to use enumerations for your targets---this is a perfect use-case extensible pattern.
 
 ### Wrapping Up
+
 Even tough it is lacking documentation, _Persistent History_ is tent pole feature for _Core Data_ that enables its usage across processes without losing your mind. Thank you, _Apple_!
 
 And thank you, dear reader, for baring with me to the end! I hope you enjoyed my first "real" blog post :)
@@ -119,12 +121,13 @@ If you did, I would be honored if you gave my website a star on [GitHub](https:/
 As a bonus, you can find a fully working implementation below, which I developed for _StudApp_. Use it as you like!
 
 ## My Implementation
+
 To make it work for you, you need to:
 
 1. Update the targets enumeration to reflect your targets
 2. Create an app group and shared `UserDefaults`
 3. Instantiate `PersistentHistoryService` and call `mergeHistory` and `deleteHistory` when it makes sense in your application flow
 
-<br />
+---
 
 {{< gist stoeffn dafed2b5c671281ab172353749140a46 >}}
