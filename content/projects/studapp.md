@@ -17,9 +17,7 @@ And—just like _Stud.IP_ itself—_StudApp_ is completely open source and free 
 
 If you know _German_ check out the [official StudApp website](https://studapp.stoeffn.de/)!
 
-{{< figure src="https://studapp.stoeffn.de/static/img/iPhone.png" title="Screenshot: Course Overview" alt="Screenshot of StudApp" height="640" class="unframed">}}
-
-> I'll soon add some more screenshots to this post—stay tuned!
+{{< figure src="https://github.com/stoeffn/StudApp/raw/master/Screenshots/iPhone-X-Courses.png" title="Screenshot: Course Overview" alt="Screenshot of StudApp" height="640" class="unframed">}}
 
 ## Motivation
 
@@ -79,6 +77,8 @@ Apart from announcements and documents, course details views provide additional 
 
 You can also swipe-to-refresh manually.
 
+{{< figure src="https://github.com/stoeffn/StudApp/raw/master/Screenshots/iPad-Pro-Courses.png" title="Screenshot: Course Overview" alt="Screenshot of StudApp" height="640" class="unframed">}}
+
 ### Announcements
 
 One of the most-used features of _Stud.IP_ is announcements: An easy way for lecturers to share news with their students.
@@ -93,6 +93,8 @@ It is always important to know where to go next. This is why---since version 1.1
 
 Similarly, you can view a list of all events by course.
 
+{{< figure src="https://github.com/stoeffn/StudApp/raw/master/Screenshots/iPhone-X-Events.png" title="Screenshot: Events" alt="Screenshot of StudApp" height="640" class="unframed">}}
+
 ### File Management
 
 Browsing, downloading, and viewing documents is _StudApp_'s main purpose. Each course has associated with it a root folder that can contain nested folders and documents. Once uploaded by a lecturer, students can access their slides, exercise sheets, solutions, or other learning materials with just the tap of a finger. Previewing files makes use of the native _QuickLook_ capabilities.
@@ -104,6 +106,8 @@ To make availability obvious, inaccessible documents or folders are greyed out a
 _StudApp_ also highlights new files as well as those that have recently changed. User can also (un-)highlight manually.
 
 Apart from regular files hosted by _Stud.IP_, the app supports downloading or linking to documents hosted by third parties and web links. It also guesses an appropriate file extension if none is given.
+
+{{< figure src="https://github.com/stoeffn/StudApp/raw/master/Screenshots/iPhone-X-Downloads.png" title="Screenshot: Downloads" alt="Screenshot of StudApp" height="640" class="unframed">}}
 
 ### Privacy
 
